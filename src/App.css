@@ -1,25 +1,92 @@
+/* body styles */
 body {
     background-color: #FBAB7E;
     background: linear-gradient(180deg, #FBAB7E 0%, #F7CE68 100%) no-repeat scroll;
-/* 
-    background: rgb(245,185,113);
-    background: linear-gradient(180deg, rgba(245,185,113,1) 0%, rgba(255,236,199,1) 100%) no-repeat scroll; */
     background-size: 100% 100vh; 
-    /* padding: 3rem; */
 
-    /* font-family: 'Montserrat', sans-serif !important; */
+}
+
+::selection{
+    background-color: rgba(142, 157, 204, .5);
 }
 
 .bodyfont {
     font-family: 'Montserrat', sans-serif;
 }
 
-.iconLink {
-    color: rgba(255,255,255,.5)!important;
+h1 {
+    margin: 0 0 1rem 0;
+    font-weight: 800;
+}
+h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+/* footer styles */
+.fixed-bottom .navbar-text .iconLink {
+    color: rgba(255,255,255,.7);
 }
 
 .linkHover:hover, .iconLink:hover {
     position: relative;
-    top: -2px;
-    color: rgba(255,255,255, .8)!important;
+    top: -3px;
+    color: rgba(255,255,255);
+}
+
+/* page content styles*/
+.content {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5rem auto;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 1px rgba(46, 49, 49, .3);
+}
+
+/* about page styles */
+.proPic {
+    background-color: #7D84B2; 
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0 1rem 1rem 0;
+    color: rgba(255,255,255, .5);
+    text-align: center;
+    padding: 3rem 0;
+    border-radius: 20px;
+}
+
+.resume {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/* btn styles */
+.cusBtn{
+    background-color: #8E9DCC;
+    border: 1px solid #8E9DCC;
+}
+.cusBtn:hover{
+    background-color: #7D84B2;
+    border: 1px solid #7D84B2;
+    position: relative;
+}
+.cusBtn:focus
+{
+    outline-color: #8E9DCC;
+    background-color: #7D84B2;
+    border: 1px solid #7D84B2;
+    position: relative;
+    box-shadow: 0 0 1px 3px rgba(251, 171, 126, .5);
+}
+/* had to get super specific to override bootstrap style 🙄  */
+.resume > .btn-group > .cusBtn:active, 
+.resume > .btn-group > .cusBtn:active:hover,
+.resume > .btn-group > .cusBtn:active:focus
+{
+    outline-color: #8E9DCC;
+    background-color: #7D84B2;
+    border: 1px solid #7D84B2;
+    position: relative;
+    box-shadow: 3px 3px 3px 1px rgba(46, 49, 49, .3) inset;
 }

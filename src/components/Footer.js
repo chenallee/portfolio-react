@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Footer() {
 
     return (
-        <Navbar variant='dark' bg='' className='fixed-bottom bodyfont' style={{ backgroundColor: 'transparent' }}>
+        <Navbar variant='dark' bg='' className='fixed-bottom bodyfont mt-auto' style={{ backgroundColor: 'transparent' }}>
             <Container fluid className='d-flex flex-column justify-content-center'>
                 <Navbar.Text style={{color: 'rgba(255,255,255)'}}>
                     <h4>

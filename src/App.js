@@ -6,11 +6,11 @@ import Header from './components/Header';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
-
-import './App.css';
+import Footer from './components/Footer';
 
 // import bootstrap stylesheet to make styles available to all components
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 //import fontawesome, add brand icons to library
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -38,6 +38,7 @@ function App() {
             )}
           />
         </Switch>
+        <Footer/>
       </>
     </Router>
   );

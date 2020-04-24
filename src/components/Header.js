@@ -9,8 +9,8 @@ function Header() {
   return (
     <Navbar expand={'md'} variant='dark' className='bodyfont' style={{backgroundColor: 'transparent'}}>
       <Container fluid>
-        <Navbar.Brand className='linkHover' style={{ fontFamily: 'Rubik Mono One, sans-serif', color:'', textShadow: '2px 2px 10px #ffecc7' }} as={Link} to='/'>
-          Lee Chenalloy
+        <Navbar.Brand className='linkHover' style={{ fontFamily: 'Montserrat, sans-serif'}} as={Link} to='/'>
+          <h2>Lee Chenalloy</h2>
           </Navbar.Brand>
         {/* button for mobile nav */}
         <Navbar.Toggle aria-controls='navbar-nav' />
