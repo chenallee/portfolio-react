@@ -12,6 +12,8 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import { Container } from 'react-bootstrap';
+
 //import fontawesome, add brand icons to library
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -22,7 +24,7 @@ function App() {
   return (
     <Router>
       <>
-        <Header />
+      <Header />
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/projects' component={Projects} />

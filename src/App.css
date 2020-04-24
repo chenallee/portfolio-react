@@ -2,18 +2,27 @@
 body {
     background-color: #FBAB7E;
     background: linear-gradient(180deg, #FBAB7E 0%, #F7CE68 100%) no-repeat scroll;
-    background-size: 100% 100vh; 
-
+    background-size: 100% 300vh; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
+#root{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+
 
 ::selection{
     background-color: rgba(142, 157, 204, .5);
 }
-
 .bodyfont {
     font-family: 'Montserrat', sans-serif;
 }
-
 h1 {
     margin: 0 0 1rem 0;
     font-weight: 800;
@@ -23,7 +32,16 @@ h2, h3, h4, h5, h6 {
 }
 
 /* footer styles */
-.fixed-bottom .navbar-text .iconLink {
+/* had to get super specific to override bootstrap style 🙄  */
+.footer {
+    /* background-color: #FBAB7E;
+    background: linear-gradient(180deg, #FBAB7E 0%, #F7CE68 100%) no-repeat scroll; */
+    /* position: absolute;
+    bottom: 0; */
+    margin-top: auto;
+}
+
+.footer .navbar-text .iconLink {
     color: rgba(255,255,255,.7);
 }
 
@@ -37,10 +55,10 @@ h2, h3, h4, h5, h6 {
 .content {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
-    margin: 5rem auto;
+    margin: 2rem auto;
     padding: 2rem;
     border-radius: 20px;
-    box-shadow: 3px 3px 5px 1px rgba(46, 49, 49, .3);
+    box-shadow: 3px 3px 5px 1px rgba(215, 218, 218, 0.3);
 }
 
 /* about page styles */
