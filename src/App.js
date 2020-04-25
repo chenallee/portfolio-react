@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 
 //import fontawesome, add brand icons to library
 import { library } from '@fortawesome/fontawesome-svg-core';
