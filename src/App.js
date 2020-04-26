@@ -17,8 +17,8 @@ import './App.css';
 //import fontawesome, add brand icons to library
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faEnvelopeSquare);
+import { faEnvelopeSquare, faEye, faCode} from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faEnvelopeSquare, faEye, faCode);
 
 function App() {
   return (

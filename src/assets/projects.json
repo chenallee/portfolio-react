@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Password Generator",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": [],
+        "img": ""
+    },
+    {
+        "id": 2,
+        "title": "Weather Dashboard",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": [],
+        "img": ""
+    },
+    {
+        "id": 3,
+        "title": "Lyrx Webplayer",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": [],
+        "img": ""
+    },
+    {
+        "id": 4,
+        "title": "API-tizers",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": [],
+        "img": ""
+    },
+    {
+        "id": 5,
+        "title": "Watchlzt API",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": [],
+        "img": ""
+    },
+    {
+        "id": 6,
+        "title": "Employee Directory",
+        "description": "The goal of the Employee Directory app is to make it easy for one to find what they need in a large dataset of employees by allowing several filter and sort options.",
+        "livelink": "https://employee-directory-react.now.sh/",
+        "codelink": "https://github.com/chenallee/employee-directory-react",
+        "technologies": ["React", "Bootstrap"],
+        "img": "employee_sm.png"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Password Generator",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": "",
+        "role": "",
+        "objective": "",
+        "solution": "",
+        "results": ""
+    },
+    {
+        "id": 2,
+        "title": "Weather Dashboard",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": "",
+        "role": "",
+        "objective": "",
+        "solution": "",
+        "results": ""
+    },
+    {
+        "id": 3,
+        "title": "Lyrics Webplayer",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": "",
+        "role": "",
+        "objective": "",
+        "solution": "",
+        "results": ""
+    },
+    {
+        "id": 4,
+        "title": "Api-Tizer",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": "",
+        "role": "",
+        "objective": "",
+        "solution": "",
+        "results": ""
+    },
+    {
+        "id": 5,
+        "title": "Watchlzt API",
+        "description": "",
+        "livelink": "",
+        "codelink": "",
+        "technologies": "",
+        "role": "",
+        "objective": "",
+        "solution": "",
+        "results": ""
+    },
+    {
+        "id": 6,
+        "title": "Employee Directory",
+        "description": "The goal of the Employee Directory app is to make it easy for one to find what they need in a large dataset of employees by allowing several filter and sort options.",
+        "livelink": "https://employee-directory-react.now.sh/",
+        "codelink": "https://github.com/chenallee/employee-directory-react",
+        "technologies": ["React", "Bootstrap"],
+        "role": "solo project",
+        "objective": "Allow the user to easily look through a dataset of non-private employee information. The user should be able to filter by at least one category and sort by at least one category.",
+        "solution": "This is my first React project so a lot of this project I spent learning how to work with React. In order to make sure I understood how it works at its core, I avoided using some more advanced features like hooks and ended up writing code that was less clean than I would have liked as I worked through it. I also used create react app so I didn't have to configure webpack myself.",
+        "results": "During this first project with React, I've learned that it is great for conditional rendering (both components and styles). I'd like to revisit this project with my new knowledge to see if I can refactor it with hooks or just clean it up. Also I'd like to override a lot of the Bootstrap styles to make the UI more interesting or just write my own styles. It might also be beneficial to allow the user to select a different UI view."
+    }
+]
