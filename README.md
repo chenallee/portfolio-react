@@ -5,6 +5,8 @@ An iteration of my web development portfolio made in React, featuring 6 projects
 ## technologies
 Made with [React](https://reactjs.org/) using [Create React App](https://create-react-app.dev/docs/getting-started/) and [Bootstrap's React Components](https://react-bootstrap.github.io/).
 
+[Particles.js](https://github.com/VincentGarreau/particles.js/) used for particle effect in the background.
+
 ## final thoughts
 Although there's a lot of things I want to tweak, I'm satisfied with the design I chose to go with. I spent the most time trying to decide what color palette and layout to use. Although I didn't end up implementing my initial design I might attempt it later. I used Bootstrap components in an effort to make things easier on myself, but overriding their styles ended up being a lot of effort. 
 

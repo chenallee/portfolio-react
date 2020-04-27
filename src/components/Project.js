@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Image, Card } from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -8,32 +8,27 @@ function Project(props) {
 
     return (
         <>
-            <Row className='title'>
-                <h4>{props.title}</h4>
-            </Row>
-            <Row className='projectDeets'>
-                <Col sm={12} md={5}>
-                    <Image src={`./assets/img/${props.img}`} alt={props.title} thumbnail fluid rounded></Image>
-                </Col>
-                <Col sm={12} md={7}>
-                    <div className='projLinks'>
-                        {props.livelink ?
-                            <a href={`${props.livelink}`}><FontAwesomeIcon icon='eye' size='2x' />View Live</a> : <></>
-                        }
+            <Card>
+                <Card.Title>
+                    <h4>{props.title}</h4>
+                </Card.Title>
+                <Card.Body className='projectDeets'>
 
-                        {props.codelink ?
-                            <a href={`${props.codelink}`}><FontAwesomeIcon icon='code' size='2x' />View Code</a> : <></>
-                        }
-                    </div>
+                        <Card.Img src={`./assets/img/${props.img}`} alt={props.title} thumbnail fluid rounded></Card.Img>
+                            {props.livelink ?
+                                <Card.Link href={`${props.livelink}`}><FontAwesomeIcon icon='eye' size='2x' />View Live</Card.Link> : <></>
+                            }
 
-                    <p>{props.desc}</p>
-                    <div>Made with:
-                    </div>
-                    <ul>
-                            {props.technologies.map((tech) => { return (<li>{tech}</li>) })}
-                        </ul>
-                </Col>
-            </Row>
+                            {props.codelink ?
+                                <Card.Link href={`${props.codelink}`}><FontAwesomeIcon icon='code' size='2x' />View Code</Card.Link> : <></>
+                            }
+
+                        <Card.Text>{props.desc}</Card.Text>
+                        <Card.Text>Made with: {props.technologies.join(', ')}</Card.Text>
+
+                </Card.Body>
+            </Card>
+
         </>
     );
 }
