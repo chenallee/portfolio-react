@@ -12,26 +12,22 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+// import particles
 import particlesConfig from './assets/particlesjs-config.json';
 import Particles from 'react-particles-js';
 
 //import fontawesome, add brand icons to library
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeSquare, faEye, faCode } from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faEnvelopeSquare, faEye, faCode);
-
-// /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-// particlesJS.load('root', './assets/particlesjs-config.json', function() {
-//   console.log('callback - particles.js config loaded');
-// });
+import { faEnvelopeSquare, faEye, faCode, faAngleUp } from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faEnvelopeSquare, faEye, faCode, faAngleUp);
 
 function App() {
   return (
 
     <Router>
       <>
-        
+      <Particles params={particlesConfig} />
           <Header />
           <Switch>
             <Route exact path='/' component={Home} />
@@ -49,7 +45,7 @@ function App() {
             />
           </Switch>
           <Footer />
-          <Particles params={particlesConfig} />
+          
       </>
     </Router>
 

@@ -8,7 +8,17 @@ function Footer() {
     return (
         <Navbar variant='dark' bg='' className='footer bodyfont' style={{ backgroundColor: 'transparent' }}>
             <Container fluid className='d-flex flex-column justify-content-center'>
-                <Navbar.Text style={{color: 'rgba(255,255,255)'}}>
+            <Navbar.Text className='toTop'>
+                    <a href='#' className='iconLink' onClick={() => {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth'
+                        })
+                    }}>
+                    <FontAwesomeIcon icon='angle-up' size='3x'  />
+                    </a>
+                </Navbar.Text>
+                <Navbar.Text >
                     <h4>
                         Contact me!
                     </h4>
@@ -24,9 +34,6 @@ function Footer() {
                         <FontAwesomeIcon icon='envelope-square' size='3x' />
                     </a>
                 </Navbar.Text>
-
-
-
             </Container>
         </Navbar>
     );

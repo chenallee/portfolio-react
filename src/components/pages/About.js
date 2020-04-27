@@ -10,9 +10,9 @@ function About() {
         <h1>about me</h1>
         <div class='introduction'>
           <div class='proPic'>
-              insert css avatar here
+              {/* insert css avatar here */}
           </div>
-          <p>I'm really passionate about interaction design, front end development, and improving user experiences!</p>
+          <p>I'm passionate about interaction design, front end development, and improving user experiences!</p>
           <p>During university, I got a taste for game design and web development and fell in love with user testing and iterative design processes. In my past roles, I was known for going beyond the job description by improving ease of experience for both customers and team members. Currently, I'm enrolled in a Full Stack coding bootcamp where I've gained experience in quickly adapting new tools to build web applications individually and collaboratively using the MERN stack.</p>
           <p>I've been working on building my design skills in my free time: as of late, that's been CSS mini-projects. (I'm creating a personal avatar in CSS to feature here!) To unwind, I play all sorts of games, ice skate, and indulge in fantasy stories.</p>
         </div>
