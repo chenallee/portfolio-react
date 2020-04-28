@@ -11,8 +11,8 @@ function Projects() {
 
   return (
     <>
-     <Container>
-       <div className='content'>
+     <Container className='content'>
+       <div className=''>
        <h1>projects</h1>
        <p>Check out some of my work! I have experience with ES6 syntax and the MERN stack. Currently working on mastering CSS, client-side JavaScript, and front end tools.</p>
        </div>

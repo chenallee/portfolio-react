@@ -11,7 +11,7 @@ function Footer() {
             <Navbar.Text className='toTop'>
                     <a href='#' className='iconLink' onClick={() => {
                         window.scrollTo({
-                            top: 0,
+                            top: -2,
                             behavior: 'smooth'
                         })
                     }}>
