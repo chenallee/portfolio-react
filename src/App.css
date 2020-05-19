@@ -94,14 +94,14 @@ a h2:hover {
 .proPic {
     background-color: #7D84B2; 
     float: left;
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
     margin: 0 1rem .5rem 0;
     color: rgba(255,255,255, .5);
     text-align: center;
-    padding: 3rem 1rem;
-    border-radius: 10px;
-    background-image: url('https://via.placeholder.com/150');
+    /* padding: 3rem 1rem; */
+    /* border-radius: 10px; */
+    /* background-image: url('https://via.placeholder.com/150'); */
 }
 
 .resume {
