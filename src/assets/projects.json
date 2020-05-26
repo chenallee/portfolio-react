@@ -3,10 +3,10 @@
         "id": 1,
         "title": "Watchlzts",
         "description": "Sometimes you watch shows on different platforms or different accounts. Watchlzts is a way for you to track how far you've gotten in each show! Took the idea from the Watchlist API to create a full Stack MERN app.",
-        "livelink": "https://rocky-reaches-00818.herokuapp.com/",
+        "livelink": "https://watchlzts.herokuapp.com/",
         "codelink": "https://github.com/chenallee/Watchlzts",
         "technologies": ["React", "Chakra UI", "Node.js", "Express", "MongoDB", "Mongoose", "JSON Webtokens"],
-        "img": "watchlzt.png"
+        "img": "watchlzt_new_dark.png"
     },
     {
         "id": 2,
