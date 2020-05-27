@@ -25,7 +25,7 @@ function About() {
             <Button href={resumePdf} target='_blank' rel="noopener noreferrer" className='cusBtn'> 
                 resume.pdf
             </Button>
-            <Button href='https://docs.google.com/document/d/1a919ip_Vwpq7OwS8rfuUGUdDGF91YuXAspCHcHSWe-0/edit?usp=sharing' target='_blank' rel="noopener noreferrer" className='cusBtn'>
+            <Button href='https://docs.google.com/document/d/1xYj5s3bPgcjNrQxIH-raupyMOQws3GpUOHR7PkOaF4o/edit?usp=sharing' target='_blank' rel="noopener noreferrer" className='cusBtn'>
               resume.gdoc
             </Button>
           </ButtonGroup>
