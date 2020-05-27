@@ -1,6 +1,6 @@
 # react portfolio
 ## description
-An iteration of my web development portfolio made in React, featuring 6 projects. Reuses a Header and Footer component across all pages, React Router for navigation, and a Project component used for all projects. Link to deployed above or [here](https://portfolio-react-lyart.now.sh/).
+An iteration of my web development portfolio made in React, featuring 6 projects. Reuses a Header and Footer component across all pages, React Router for navigation, and a Project component used for all projects. Link to deployed above or [here](https://chenallee.now.sh/).
 
 ## technologies
 Made with [React](https://reactjs.org/) using [Create React App](https://create-react-app.dev/docs/getting-started/) and [Bootstrap's React Components](https://react-bootstrap.github.io/).
