@@ -86,6 +86,10 @@ a h2:hover {
     /* box-shadow: 3px 3px 5px 1px rgba(46, 49, 49, .3); */
 }
 
+.content {
+    padding: 3rem 1rem;
+}
+
 .container p {
     margin: .8rem 0;
 }
